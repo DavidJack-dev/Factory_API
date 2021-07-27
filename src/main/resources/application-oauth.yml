@@ -4,14 +4,14 @@ spring:
       client:
         registration:
           google:
-            client-id: AIzaSyCvXPexGCbHycgMcsLgeQ9xyOyEjQGTMBw
+            client-id: 구글 클라이언트 ID
             client-secret: 구글 암호키
             scope:
               - profile
               - email
           naver:
-            client-id: pmqAf6eG98iEmiTqsMVW
-            client-secret: ITLdI8aFBr
+            client-id: 네이버 클라이언트 ID
+            client-secret: 네이버 클라이언트 암호키
             redirect-uri: "{baseUrl}/login/oauth2/code/{registrationId}"
             authorization-grant-type: authorization_code
             scope:
@@ -26,8 +26,8 @@ spring:
               - public_profile
           kakao:
             authorization-grant-type: authorization_code
-            client-id: 164a7175b42db1af249c182c4749ed57
-            client-secret: j4oLIQoFB5nPOZAd1eizlVM4KIIvBx49
+            client-id: 카카오 클라이언트 아이디
+            client-secret: 카카오 암호키
             redirect-uri: "{baseUrl}/login/oauth2/code/{registrationId}"
             scope:
               - profile
